@@ -1,7 +1,9 @@
 {
-  "name": "twikoo-vercel",
-  "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "twikoo-vercel": "^1.6.18"
   }
 }
+
