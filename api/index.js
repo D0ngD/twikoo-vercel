@@ -1,5 +1,5 @@
-const twikoo = require('twikoo-vercel')
+import twikoo from 'twikoo-vercel'
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
   return twikoo(req, res)
 }
